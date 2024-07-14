@@ -29,7 +29,7 @@ header {
     background-image: url('../imagens/fundo-header-full.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 55vh;
 
 }
 
@@ -92,6 +92,37 @@ nav a:hover {
     text-indent: 30px;
     line-height: 25px;
     margin-bottom: 20px;
+}
+
+.normal #exercito {
+    text-decoration: none;
+    color: rgb(0, 89, 0);
+    font-weight: 600;
+}
+
+.normal #exercito:hover {
+    text-decoration: underline;
+}
+
+.normal #marinha {
+    text-decoration: none;
+    color: rgb(0, 0, 114);
+    font-weight: 600;
+}
+
+.normal #marinha:hover {
+    text-decoration: underline;
+}
+
+
+.normal #aeronaltica {
+    text-decoration: none;
+    color: rgb(76, 76, 76);
+    font-weight: 600;
+}
+
+.normal #aeronaltica:hover {
+    text-decoration: underline;
 }
 
 footer {
