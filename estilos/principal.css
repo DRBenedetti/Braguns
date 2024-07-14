@@ -1,7 +1,22 @@
+@font-face {
+    font-family: 'topsecret';
+    src: url('../fontes/topsecret.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'gunplay';
+    src: url('../fontes/gunplay.otf') format('opentype');
+}
+
 *{
     margin: 0px;
     padding: 0px;
 
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #353535 rgb(24, 24, 24);
 }
 
 body {
@@ -11,31 +26,33 @@ body {
 
 header {
     text-align: center;
-    color: #b0d82b;
-    background-color: rgb(33, 33, 33);
-    background-image: url('../imagens/cabeçalho-full.jpg');
-    background-position: left center;
+    background-image: url('../imagens/fundo-header-full.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
-    
+
 }
 
 header h1 {
-    font-size: 10vw;
+    font-family: 'topsecret', Arial, Helvetica, sans-serif;
+    font-size: 15vh;
+    color: #353535;
     padding-top: 50px;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 3px 3px 4px black;
+    
 }
 
 header p {
-    font-size: 4vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 7vh;
     font-weight: 700;
-    color: #04e125;
-    text-shadow: 1px 1px 1px black;
+    color: #353535;
+    padding-top: 30px;
+    text-shadow: 3px 3px 4px black;
 }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.863);
+    background-color: rgb(24, 24, 24);
     text-align: center;
     padding: 10px;
     overflow: hidden;
@@ -52,5 +69,44 @@ nav a {
 nav a:hover {
     background-color: white;
     color: black;
+    
 }
 
+.normal {
+    margin: 10px;
+    padding: 10px;
+}
+
+.normal h1 {
+    font-family: 'gunplay';
+    font-size: 5vw;
+    color: #353535;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.normal p {
+    max-width: 700px;
+    margin-inline: auto;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
