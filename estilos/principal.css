@@ -26,16 +26,18 @@ body {
 
 header {
     text-align: center;
+    background-color: #EAD39A;
     background-image: url('../imagens/fundo-header-full.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
 }
 
 header h1 {
     font-family: 'topsecret', Arial, Helvetica, sans-serif;
-    font-size: 5em;
+    font-size: 10vw;
     color: #353535;
     padding-top: 50px;
     text-shadow: 3px 3px 4px black;
