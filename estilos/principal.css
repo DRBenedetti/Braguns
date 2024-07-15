@@ -37,7 +37,7 @@ header {
 
 header h1 {
     font-family: 'topsecret', Arial, Helvetica, sans-serif;
-    font-size: 10vw;
+    font-size: 5em;
     color: #353535;
     padding-top: 50px;
     text-shadow: 3px 3px 4px black;
