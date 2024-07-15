@@ -127,6 +127,31 @@ nav a:hover {
     text-decoration: underline;
 }
 
+#img__exercito {
+    background-color: #00ff00b1;
+    background-image: url('../imagens/Leopard1A5-index-cortada.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img__exercito img {
+    display: block;
+    margin-inline: auto;
+    padding-top: 25px;
+    margin-bottom: 35px;
+}
+
+#img__exercito h1{
+    font-family: 'gunplay';
+    font-size: 3em;
+    color: #008300;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    padding-bottom: 30px;
+}
+
 footer {
     text-align: center;
     background-color: black;
