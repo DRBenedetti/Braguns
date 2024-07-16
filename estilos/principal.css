@@ -85,7 +85,7 @@ nav a:hover {
 #principal {
     padding: 20px;
     background-color: white;
-    height: 50vh;
+    height: 300px;
 }
 
 #principal h1 {
@@ -168,7 +168,6 @@ nav a:hover {
     margin-inline: auto;
     max-width: 600px;
     border-radius: 5px;
-    height: 300px;
 }
 
 #lista__exercito h2 {
@@ -228,7 +227,6 @@ nav a:hover {
     margin-inline: auto;
     max-width: 600px;
     border-radius: 5px;
-    height: 300px;
 }
 
 #lista__força__aeria h2 {
@@ -288,7 +286,6 @@ nav a:hover {
     margin-inline: auto;
     max-width: 600px;
     border-radius: 5px;
-    height: 300px;
 }
 
 #lista__marinha h2 {
