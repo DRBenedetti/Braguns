@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @font-face {
     font-family: 'topsecret';
     src: url('../fontes/topsecret.ttf') format('truetype');
@@ -21,6 +23,7 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #242424;
     
 }
 
@@ -75,11 +78,17 @@ nav a:hover {
 }
 
 .normal {
-    margin: 10px;
-    padding: 10px;
+    padding: 20px;
+    height: 50vh;
 }
 
-.normal h1 {
+#principal {
+    padding: 20px;
+    background-color: white;
+    height: 50vh;
+}
+
+#principal h1 {
     font-family: 'gunplay';
     font-size: 5vw;
     color: #353535;
@@ -87,7 +96,7 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-.normal p {
+#principal p {
     max-width: 700px;
     margin-inline: auto;
     text-align: justify;
@@ -96,39 +105,39 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-.normal #exercito {
+#principal #exercito {
     text-decoration: none;
-    color: rgb(0, 89, 0);
+    color: #008300;
     font-weight: 600;
 }
 
-.normal #exercito:hover {
+#principal #exercito:hover {
     text-decoration: underline;
 }
 
-.normal #marinha {
+#principal #marinha {
     text-decoration: none;
     color: rgb(0, 0, 114);
     font-weight: 600;
 }
 
-.normal #marinha:hover {
+#principal #marinha:hover {
     text-decoration: underline;
 }
 
 
-.normal #aeronaltica {
+#principal #aeronaltica {
     text-decoration: none;
-    color: rgb(76, 76, 76);
+    color: #383838;
     font-weight: 600;
 }
 
-.normal #aeronaltica:hover {
+#principal #aeronaltica:hover {
     text-decoration: underline;
 }
 
 #img__exercito {
-    background-color: #00ff00b1;
+    background-color: #00ff00;
     background-image: url('../imagens/Leopard1A5-index-cortada.jpg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -150,6 +159,161 @@ nav a:hover {
     text-align: center;
     text-shadow: 2px 2px 2px black;
     padding-bottom: 30px;
+}
+
+#lista__exercito {
+    background-color: #3e9a3e;
+    color: white;
+    box-shadow: 1px 1px 3px black;
+    margin-inline: auto;
+    max-width: 600px;
+    border-radius: 5px;
+    height: 300px;
+}
+
+#lista__exercito h2 {
+    background-color: #005900;
+    padding: 10px 15px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#lista__exercito ul {
+    padding: 20px 20px 20px 20px;
+    list-style-type: '🔰 - ';
+    list-style-position: inside;
+}
+
+#lista__exercito li {
+    padding-top: 5px;
+}
+
+#lista__exercito a{
+    color: black;
+    text-decoration: none;
+}
+
+#lista__exercito a:hover {
+    color: white;
+}
+
+#img__aeronautica {
+    background-color: rgb(16, 114, 146);
+    background-image: url('../imagens/gripen-index-1500.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#img__aeronautica img{
+    display: block;
+    margin-inline: auto;
+    padding-top: 25px;
+    margin-bottom: 35px; 
+}
+
+#img__aeronautica h1{
+    font-family: 'gunplay';
+    font-size: 3em;
+    color: #127495;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    padding-bottom: 30px;
+}
+
+#lista__força__aeria {
+    background-color: #0b617d;
+    color: white;
+    box-shadow: 1px 1px 3px black;
+    margin-inline: auto;
+    max-width: 600px;
+    border-radius: 5px;
+    height: 300px;
+}
+
+#lista__força__aeria h2 {
+    background-color: rgb(5, 56, 73);
+    padding: 10px 15px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#lista__força__aeria ul {
+    padding: 20px 20px 20px 20px;
+    list-style-type: '✈️ - ';
+    list-style-position: inside;
+}
+
+#lista__força__aeria li {
+    padding-top: 5px;
+}
+
+#lista__força__aeria a{
+    color: black;
+    text-decoration: none;
+}
+
+#lista__força__aeria a:hover {
+    color: white;
+}
+
+#img__marinha {
+    background-color: #a2a2a2;
+    background-image: url('../imagens/navio-index-editada.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img__marinha img {
+    display: block;
+    margin-inline: auto;
+    padding-top: 25px;
+    margin-bottom: 35px; 
+}
+
+#img__marinha h1{
+    font-family: 'gunplay';
+    font-size: 3em;
+    color: rgb(171, 171, 171);
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    padding-bottom: 30px;
+}
+
+#lista__marinha {
+    background-color: #989898;
+    color: white;
+    box-shadow: 1px 1px 3px black;
+    margin-inline: auto;
+    max-width: 600px;
+    border-radius: 5px;
+    height: 300px;
+}
+
+#lista__marinha h2 {
+    background-color: #515151;
+    padding: 10px 15px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#lista__marinha ul {
+    padding: 20px 20px 20px 20px;
+    list-style-type: '⚓ - ';
+    list-style-position: inside;
+}
+
+#lista__marinha li {
+    padding-top: 5px;
+}
+
+#lista__marinha a{
+    color: black;
+    text-decoration: none;
+}
+
+#lista__marinha a:hover {
+    color: white;
 }
 
 footer {
