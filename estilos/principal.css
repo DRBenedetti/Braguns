@@ -61,6 +61,8 @@ nav {
     text-align: center;
     padding: 10px;
     overflow: hidden;
+    position: sticky;
+    top: 0px;
 }
 
 nav a {
@@ -68,7 +70,6 @@ nav a {
     color: white;
     font-weight: 600;
     padding: 11px 2vw;
-    
 }
 
 nav a:hover {
@@ -104,35 +105,16 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-#principal #exercito {
+#principal a {
     text-decoration: none;
-    color: #008300;
+    color: #242424;
     font-weight: 600;
+    background-color: #e7c87c;
+    padding: 3px;
 }
 
-#principal #exercito:hover {
-    text-decoration: underline;
-}
-
-#principal #marinha {
-    text-decoration: none;
-    color: rgb(0, 0, 114);
-    font-weight: 600;
-}
-
-#principal #marinha:hover {
-    text-decoration: underline;
-}
-
-
-#principal #aeronaltica {
-    text-decoration: none;
-    color: #383838;
-    font-weight: 600;
-}
-
-#principal #aeronaltica:hover {
-    text-decoration: underline;
+#principal a:hover {
+    color: white;
 }
 
 #img__exercito {
