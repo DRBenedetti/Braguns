@@ -62,7 +62,7 @@ nav {
     padding: 10px;
     overflow: hidden;
     position: sticky;
-    top: 0px;
+    top: -1px;
 }
 
 nav a {

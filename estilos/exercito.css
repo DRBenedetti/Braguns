@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'topsecret';
+    src: url('../fontes/topsecret.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'gunplay';
+    src: url('../fontes/gunplay.otf') format('opentype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #4d4d4d rgb(24, 24, 24);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #242424;
+    
+}
+
+header {
+    text-align: center;
+    background-color: #EAD39A;
+    background-image: url('../imagens/fundo-header-full.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+header h1 {
+    font-family: 'topsecret', Arial, Helvetica, sans-serif;
+    font-size: 4.5em;
+    color: #353535;
+    padding-top: 50px;
+    text-shadow: 3px 3px 4px black;
+    
+}
+
+header p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: 700;
+    color: #353535;
+    padding-top: 30px;
+    text-shadow: 3px 3px 4px black;
+}
+
+nav {
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    position: sticky;
+    top: -1px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 11px 2vw;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+.normal {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.normal h2 {
+    background-image: linear-gradient(to right, #c1ae7e, white);
+    font-family: 'gunplay';
+    padding: 5px;
+}
+
+.normal p {
+    text-align: justify;
+    text-indent: 30px;
+    padding-top: 30px;
+}
+
+.normal img {
+    display: block;
+    margin-inline: auto;
+    margin-top: 30px;
+}
+
+#principal {
+    padding: 20px;
+    background-color: white;
+}
+
+#principal h1 {
+    font-family: 'gunplay';
+    font-size: 5vw;
+    color: #353535;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#principal p {
+    max-width: 700px;
+    margin-inline: auto;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+#principal a {
+    text-decoration: none;
+    color: #242424;
+    font-weight: 600;
+    background-color: #e7c87c;
+    padding: 3px;
+}
+
+#principal a:hover {
+    color: white;
+}
+
+.imagem {
+    height: 500px;
+}
+
+#infantaria {
+    background-image: url('../imagens/exercito/infantaria-exercito-editada.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+
+#infantaria h1 {
+    font-family: 'gunplay';
+    font-size: 5em;
+    color: #877132;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    padding-bottom: 30px;
+    padding-top: 200px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0px;
+    margin-top: 20px;
+    margin-bottom: -1px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
